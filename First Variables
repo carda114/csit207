@@ -1,0 +1,25 @@
+<?php
+    $myFirstVariable = 'Andrew';
+
+    $literalString = 'My first variable was named $myFirstVariable';
+    echo $literalString;
+
+    $dynamicString = "The value of my variable was $myFirstVariable";
+    echo $dynamicString;
+
+    $empty = [];
+    print_r($empty);
+
+    $studentInfo = [
+        'First Name' => 'Andrew',
+        'Last Name' => 'Card',
+        'Semester' => 'Fall 2022'
+    ];
+    print_r($studentInfo);
+
+    $numArray = range(1, 50);
+    print_r($numArray);
+
+    $text = $literalString . $dynamicString;
+    echo strlen($text);
+?>
