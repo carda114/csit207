@@ -1,10 +1,11 @@
 <?php
     $myFirstVariable = 'Andrew';
 
-    $literalString = 'My first variable was named $myFirstVariable';
+    $literalString = 'My first variable was named $myFirstVariable.';
     echo $literalString;
+    echo "\r\n";
 
-    $dynamicString = "The value of my variable was $myFirstVariable";
+    $dynamicString = "The value of my variable was $myFirstVariable.\r\n";
     echo $dynamicString;
 
     $empty = [];
@@ -21,5 +22,6 @@
     print_r($numArray);
 
     $text = $literalString . $dynamicString;
-    echo strlen($text);
+    echo 'The number of characters in the $literalString and $dynamicString';
+    echo ' variables are ' . strlen($text) . '.';
 ?>
